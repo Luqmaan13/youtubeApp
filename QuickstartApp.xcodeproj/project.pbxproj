@@ -12,6 +12,12 @@
 		577233F420EE8C7D00A1B078 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 577233F220EE8C7D00A1B078 /* Main.storyboard */; };
 		577233F620EE8C8200A1B078 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 577233F520EE8C8200A1B078 /* Assets.xcassets */; };
 		577233F920EE8C8200A1B078 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 577233F720EE8C8200A1B078 /* LaunchScreen.storyboard */; };
+		57A0A7C920F05465007FF7C7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 57A0A7C820F05465007FF7C7 /* GoogleService-Info.plist */; };
+		57A0A7CB20F078C1007FF7C7 /* SearchVideosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A0A7CA20F078C1007FF7C7 /* SearchVideosViewController.swift */; };
+		57A35E3A20F08858001B8C78 /* VideoDetailsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A35E3920F08858001B8C78 /* VideoDetailsCollectionViewCell.swift */; };
+		57A35E3C20F09A8C001B8C78 /* PlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A35E3B20F09A8C001B8C78 /* PlayViewController.swift */; };
+		57BBF35F20F3D198003856C7 /* PopAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BBF35E20F3D198003856C7 /* PopAnimator.swift */; };
+		FFCFEE5EE91D1FCA04652FC7 /* Pods_QuickstartApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7739407745921BED9E3BCB79 /* Pods_QuickstartApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,14 @@
 		577233F520EE8C8200A1B078 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		577233F820EE8C8200A1B078 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		577233FA20EE8C8200A1B078 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57A0A7C820F05465007FF7C7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		57A0A7CA20F078C1007FF7C7 /* SearchVideosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVideosViewController.swift; sourceTree = "<group>"; };
+		57A35E3920F08858001B8C78 /* VideoDetailsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoDetailsCollectionViewCell.swift; sourceTree = "<group>"; };
+		57A35E3B20F09A8C001B8C78 /* PlayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayViewController.swift; sourceTree = "<group>"; };
+		57BBF35E20F3D198003856C7 /* PopAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopAnimator.swift; sourceTree = "<group>"; };
+		7739407745921BED9E3BCB79 /* Pods_QuickstartApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuickstartApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		834815E2AC8BF6295F8DF9EC /* Pods-QuickstartApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickstartApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-QuickstartApp/Pods-QuickstartApp.release.xcconfig"; sourceTree = "<group>"; };
+		9F1F89C3AB22B1FBFEA6BEF4 /* Pods-QuickstartApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickstartApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QuickstartApp/Pods-QuickstartApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +43,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFCFEE5EE91D1FCA04652FC7 /* Pods_QuickstartApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F08386C95EE0DBD797F76E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7739407745921BED9E3BCB79 /* Pods_QuickstartApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		577233E220EE8C7D00A1B078 = {
 			isa = PBXGroup;
 			children = (
+				57A0A7C820F05465007FF7C7 /* GoogleService-Info.plist */,
 				577233ED20EE8C7D00A1B078 /* QuickstartApp */,
 				577233EC20EE8C7D00A1B078 /* Products */,
+				CA6021472FF10CA4C0C233EA /* Pods */,
+				0F08386C95EE0DBD797F76E8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +80,35 @@
 		577233ED20EE8C7D00A1B078 /* QuickstartApp */ = {
 			isa = PBXGroup;
 			children = (
+				579B020B20F68332003C007C /* Model */,
 				577233EE20EE8C7D00A1B078 /* AppDelegate.swift */,
 				577233F020EE8C7D00A1B078 /* ViewController.swift */,
 				577233F220EE8C7D00A1B078 /* Main.storyboard */,
 				577233F520EE8C8200A1B078 /* Assets.xcassets */,
 				577233F720EE8C8200A1B078 /* LaunchScreen.storyboard */,
 				577233FA20EE8C8200A1B078 /* Info.plist */,
+				57A0A7CA20F078C1007FF7C7 /* SearchVideosViewController.swift */,
+				57A35E3920F08858001B8C78 /* VideoDetailsCollectionViewCell.swift */,
+				57A35E3B20F09A8C001B8C78 /* PlayViewController.swift */,
+				57BBF35E20F3D198003856C7 /* PopAnimator.swift */,
 			);
 			path = QuickstartApp;
+			sourceTree = "<group>";
+		};
+		579B020B20F68332003C007C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CA6021472FF10CA4C0C233EA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9F1F89C3AB22B1FBFEA6BEF4 /* Pods-QuickstartApp.debug.xcconfig */,
+				834815E2AC8BF6295F8DF9EC /* Pods-QuickstartApp.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +118,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 577233FD20EE8C8200A1B078 /* Build configuration list for PBXNativeTarget "QuickstartApp" */;
 			buildPhases = (
+				BDA71B991C417B03ED43A9C7 /* [CP] Check Pods Manifest.lock */,
 				577233E720EE8C7D00A1B078 /* Sources */,
 				577233E820EE8C7D00A1B078 /* Frameworks */,
 				577233E920EE8C7D00A1B078 /* Resources */,
+				D83752B063C2D747B3CA6D19 /* [CP] Embed Pods Frameworks */,
+				3C292F228E53C3E10F4E0587 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,6 +173,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				577233F920EE8C8200A1B078 /* LaunchScreen.storyboard in Resources */,
+				57A0A7C920F05465007FF7C7 /* GoogleService-Info.plist in Resources */,
 				577233F620EE8C8200A1B078 /* Assets.xcassets in Resources */,
 				577233F420EE8C7D00A1B078 /* Main.storyboard in Resources */,
 			);
@@ -130,13 +181,88 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3C292F228E53C3E10F4E0587 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-QuickstartApp/Pods-QuickstartApp-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QuickstartApp/Pods-QuickstartApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BDA71B991C417B03ED43A9C7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QuickstartApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D83752B063C2D747B3CA6D19 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-QuickstartApp/Pods-QuickstartApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleAPIClientForREST/GoogleAPIClientForREST.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/youtube-ios-player-helper/youtube_ios_player_helper.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleAPIClientForREST.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/youtube_ios_player_helper.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QuickstartApp/Pods-QuickstartApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		577233E720EE8C7D00A1B078 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57A0A7CB20F078C1007FF7C7 /* SearchVideosViewController.swift in Sources */,
+				57A35E3C20F09A8C001B8C78 /* PlayViewController.swift in Sources */,
 				577233F120EE8C7D00A1B078 /* ViewController.swift in Sources */,
 				577233EF20EE8C7D00A1B078 /* AppDelegate.swift in Sources */,
+				57BBF35F20F3D198003856C7 /* PopAnimator.swift in Sources */,
+				57A35E3A20F08858001B8C78 /* VideoDetailsCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +404,7 @@
 		};
 		577233FE20EE8C8200A1B078 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F1F89C3AB22B1FBFEA6BEF4 /* Pods-QuickstartApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -296,6 +423,7 @@
 		};
 		577233FF20EE8C8200A1B078 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 834815E2AC8BF6295F8DF9EC /* Pods-QuickstartApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

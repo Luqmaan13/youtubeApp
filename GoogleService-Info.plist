@@ -3,17 +3,17 @@
 <plist version="1.0">
 <dict>
 	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
-	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<string>ca-app-pub-xxxx</string>
 	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
 	<string>ca-app-pub-3940256099942544/4411468910</string>
 	<key>CLIENT_ID</key>
-	<string>563143879253-m4vn4bp1v6alsb5o1ovlgntjfmbtoqvk.apps.googleusercontent.com</string>
+	<string>xxxxxxxx.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.563143879253-m4vn4bp1v6alsb5o1ovlgntjfmbtoqvk</string>
+	<string>com.googleusercontent.apps.xxxx</string>
 	<key>API_KEY</key>
-	<string>AIzaSyDosuwcTJpA40TcIlDnZXMt9AL7MN7SPnQ</string>
+	<string>xxxxxxx</string>
 	<key>GCM_SENDER_ID</key>
-	<string>563143879253</string>
+	<string>xxxx</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
